@@ -1,0 +1,9 @@
+NAME
+       pwd print working directory
+
+SYNOPSIS
+       pwd ...
+
+DESCRIPTION
+      outputs full path of current working directory.
+

@@ -1,0 +1,24 @@
+
+NAME
+       grep - to search string in a file or a directory
+
+SYNOPSIS
+       grep [OPTION]... SEARCH_STRING [FILE]...
+DESCRIPTION
+       It outputs filename and respective information for search string according to specified options
+
+OPTIONS
+	-l : 
+		SYNTAX grep -l SEARCH_STRING [FILE]
+			prints the name of file in which string is found.
+	
+	-c:
+		SYNTAX grep -C SEARCH_STRING [FILE]
+			prints no of occurence count filewise.
+
+	-n
+		SYNTAX grep -n SEARCH_STRING [FILE]
+			prints filename,line number and line in which string is found
+	-i
+		SYNTAX grep -i SEARCH_STRING [FILE]
+			prints the filename and line in which string is found irrespective of case of search string

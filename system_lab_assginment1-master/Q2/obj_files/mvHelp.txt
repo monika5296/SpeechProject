@@ -1,0 +1,10 @@
+NAME
+       mv - move (rename) files
+
+SYNOPSIS
+       mv [OPTION]... SOURCE... DESTINATION
+       
+DESCRIPTION
+	rename source to destination ,or move source to a directory.
+	destination will be created if not exists.
+	mv do not prompt before overwritting a file.

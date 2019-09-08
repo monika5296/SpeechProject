@@ -1,0 +1,25 @@
+NAME
+       split - split a file into pieces
+
+SYNOPSIS
+       split [OPTION]... 
+
+DESCRIPTION
+       Output  pieces of FILE to Xaa,Xab,.... default size is 1000
+       lines, and default PREFIX is 'x'.
+
+OPTIONS
+	-l : 
+		SYNTAX split -l [number of lines]
+			split the file into small files each of size number of lines provided
+	
+	-b:
+		SYNTAX split -b [bytes]
+			split the file into small files each of sizes bytes provided.
+
+	-n
+		SYNTAX split -n [number]
+			split the files into n(number) files of equal sizes.
+	-d
+		SYNTAX split -d
+			split the files into small files X1,X2 with default configuration ,here the 				suffixes are digits 
